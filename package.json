@@ -1,0 +1,30 @@
+{
+  "name": "node-pokemon-api",
+  "version": "1.0.0",
+  "description": "An awesome API rest to handle some pokemons.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "Node_ENV=production node app.js",
+    "dev" : "Node_ENV=development nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-pokemon-api"
+  },
+  "author": "Fouda",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mariadb": "^3.1.0",
+    "sequelize": "^6.29.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+  
+    "nodemon": "^2.0.20"
+  }
+}
