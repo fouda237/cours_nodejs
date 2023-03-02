@@ -13,7 +13,7 @@ app
 //     next()
 //    })
 sequelize.initDb()
-app.get('/',(req,res)=>{
+app.get('/',(req,res)=>{ 
   res.json(`Hello, Heroku: salut`)
 })
 // Ici, nous placerons nos futurs points de terminaison
